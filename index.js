@@ -1,14 +1,2 @@
-let     x = 10 //
-console.log(x);
-x += 20;
-console.log(x);
-x -= 10;
-console.log(x);
-x *= 10;
-console.log(x);
-x /= 10;
-console.log(x);
-x **= 10;
-console.log(x);
-x %= 10;
-console.log(x)
+let x = 10 + 5 * 2 // = has lower precedence than +-*/
+console.log (x)
