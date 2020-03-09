@@ -1,10 +1,11 @@
-const firstword = "Hello"
-const secondword = "World"
+let girls = "10";
+let boys = "5";
+console.log (girls+boys);
 
-console.log(firstword+secondword);
-console.log(`${firstword} ${secondword}`)
-console.log(10 + 5)
-console.log(10+ '5')
-console.log('10' + 5)
-console.log(10 + 10 + '5')
-console.log("10" + "10")
+console.log ("Converting Strings to Numbers");
+
+let women = "10";
+let men = "5";
+
+console.log(women+men)
+
