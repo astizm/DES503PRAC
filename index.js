@@ -41,3 +41,9 @@ let b=1
 console.log(b);
 console.log(10 * b++)
 console.log(b);
+
+for(let i=0; i<=10; i++)
+{
+    console.log(i)
+}
+
