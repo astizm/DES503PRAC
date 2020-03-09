@@ -1,11 +1,8 @@
-let girls = "10";
-let boys = "5";
-console.log (girls+boys);
+console.log(10 + 5 * 3) //BODMAS
 
-console.log ("Converting Strings to Numbers");
+console.log(1 + 2, 3 + 4) // Comma operator allows concurrant expressions
 
-let women = "10";
-let men = "5";
+console.log ("Comma Operator in a Variable");
 
-console.log(women+men)
-
+let a = (1 + 2, 3+ 4);
+console.log (a) //First expression is thrown in the garbage
