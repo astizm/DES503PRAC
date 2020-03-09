@@ -1,19 +1,26 @@
-//Boolean
-console.log(10 == 5) //false (10 != 5)
-console.log( 10!=10) //F (10 is = 10)
-console.log (10>2) //T (10 is > 2)
-console.log(10<5) //F (10 is > 5)
-console.log(10<=5) //F (10>=5)
-console.log(10>=5); //T (10>5)
+console.log(1 == "1");
+console.log(1 == true)
+//1 is equal to T
+console.log("");//[empty]
+console.log(0 == "0")
+console.log(0 == false);
+//"True" 0 == False
 
-console.log(10 == "5")//F (!=10)
-console.log(10 === "10"); // F not identical (switch to == or for T)
-console.log(10 !=  "5"); //T
-console.log(10 != "10");//F switch to == for T 
-console.log(10 < "5")// F <less than switch to > for T
-console.log(10 < "10")// F
-console.log(10 > "10" )// F
-console.log(10 <= "5")//False (Less than or =)
-console.log(10 <= 10)// True
-console.log(10 >= "5")//True, Greater than or = 
-console.log(10 >= "10")//True (= to)
+//Equality of data type (does 1 === "1")?
+
+console.log(1 == "1")//T
+console.log(1 === "1")//F
+console.log(1 === 1); //T
+
+console.log(0 == false)//"True"
+console.log(0 === false)//False
+
+console.log(1 !="1")//False 
+console.log(1 !== "1")//True
+
+console.log(1 != true)//False
+console.log(1 !== true)// True
+
+console.log(0 != false)//False
+console.log(0 !== false)//True
+
