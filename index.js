@@ -1,46 +1,10 @@
-let x = 10;
-let y = 5;
+const firstword = "Hello"
+const secondword = "World"
 
-console.log(x + y);
-
-console.log(x - y);
-
-console.log(x / y);
-
-console.log(x % y);
-
-console.log(x * y);
-
-console.log(x ** y);
-
-console.log(x);
-console.log(++x);
-console.log(x);
-console.log(++x);
-console.log(x);
-console.log(++x);
-console.log(x);
-
-console.log(y);
-console.log(y--);
-console.log(y)
-console.log(y--)
-console.log(y)
-console.log(--y)
-console.log(y)
-console.log(--y)
-
-console.log("Pre-Increment")
-let a=1
-console.log(a);
-console.log(10 * ++a)
-console.log(a);
-
-console.log("Post-Increment")
-let b=1
-console.log(b);
-console.log(10 * b++)
-console.log(b);
-console.log(10 * b++)
-
-
+console.log(firstword+secondword);
+console.log(`${firstword} ${secondword}`)
+console.log(10 + 5)
+console.log(10+ '5')
+console.log('10' + 5)
+console.log(10 + 10 + '5')
+console.log("10" + "10")
