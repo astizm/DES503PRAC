@@ -1,26 +1,50 @@
-console.log(null == 0);//false 
-console.log(null === 0);//false
-console.log(null > 0);//false
-console.log(null < 0 );//False
-console.log(null >= 0);//True
+//compare objects and arrays with ===/==
+const a = {
+    isHavingFun: true
+}
+const b = a
+console.log(a === b) //f
+console.log(a == b)//f
+console.log(a !== b)//f
+console.log(a) //{ isHavingFun: true}
+console.log(b) //{ isHavingFun: true}
+//truthy vs falsey
+let green = 2;
+let red = 5;
+let orange = 4;
 
-
-/*line 1 - 5: Why null behaves differently .?
-line 1 : null is not converted to Number 0, treated as null itself
-line 2 : False, because both are different Data Types
-line 3 : null is converted to 0, 0 cannot be greater than 0. So false
-line 4 : null is converted to 0, 0 cannot be less than 0. So comparison is false
-line 5 : null is converted to 0, 0 can be greater than or equal to 0. So true 
-*/
-
-console.log(undefined == null);//True (und is = to null)
-console.log(undefined === null);//False (different data types)
-
-console.log(undefined == 0);//f
-console.log(undefined === 0);//f
-console.log(undefined > 0);//f
-console.log(undefined >= 0);//flase
-
-console.log(null + 1);// 1 (null = 0 + 1)
-console.log(undefined > 0);//False
-console.log(undefined + 1);//NaN (Not a Number) result when undefined is compared to a number or number compared/operated to a non-number
+//switch statements
+const person = 'Mart'
+switch (person) {
+    case 'Jane' :
+        console.log('Hi Jane')
+        break;
+        case "Joe":
+            console.log('Hi Joe')
+            break;
+            case 'Mart':
+                console.log('Hi Mart')
+                break;
+                
+}
+//multi-criteria case
+const foo = 12
+switch (foo) {
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+    console.log('I like this number');
+    break;
+  case -1:
+  case -2:
+    console.log('I love this number');
+    case 12:
+    case 13:
+    case 15:
+        console.log('Numbers are numerical')
+    break;
+  default:
+    console.log('I don\'t like this number.');
+}
+non-number
