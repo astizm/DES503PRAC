@@ -1,27 +1,26 @@
-//break omission from switch statements
-const yo = 0
-let output = "";
-switch (yo) {
-    case 0:
-        output += 'Yo,';
-        case 1:
-            output += 'Mama'
-            output += 'So'
-            case 2:
-                output += 'Old'
-                console.log(output); //Yo,MamaSoOld
-                break;
-                case 3:
-                    output += 'You'
-                    case 4:
-                        output += 'Know'
-                        break;
-                        case 5:
-                            output += '!';
-                            console.log(output);
-                            break;
-                            default:
-                                console.log('Pick a number 5 or less!');
-
-
+/*JS Block scope variable within switch statements, 
+include braces between case blocks to allow more than one let or const within the same switch block
+*/
+const colour = 'Red'
+switch (colour) {
+    case 'Green': {
+    let shade = 'Green';
+    break;
+}
+case 'Yellow': {
+    let shade = 'Yellow'
+    break;
+}
+case 'Silver': {
+    let shade = 'Silver'
+    break;
+}
+case 'Indigo': {
+    let shade = 'Indigo'
+    break;
+}
+default: {
+    console.log(colour); //Red
+    break;
+}
 }
